@@ -1,0 +1,221 @@
+h1 {
+    font-family: 'Times New Roman';
+    color: #8cdae6;
+}
+
+h2 {
+    font-family: 'Times New Roman';
+    color: #8cdae6;
+    border-bottom: 1px dotted darkgrey;
+    background-color: white;
+}
+
+.aboutpic {
+    float: left;
+    padding: 34px 12px 24px;
+    margin-right: 2px;
+    margin-top: 15px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.aboutpic:hover {
+    margin-top: -10px;
+}
+
+.topname {
+    width: 20%;
+    padding: 2px;
+    margin-bottom: 2px;
+}
+
+section {
+    background-color: white;
+}
+
+body {
+    width: 960px; 
+    background-image: url("http://3.bp.blogspot.com/-BApvhIHR_Mk/T5O8y8r4vrI/AAAAAAAAAJA/xjLdy9dFB2I/s000/pinstripe.png");;
+    font-family: 'sans-serif';
+    font-size: 15px; 
+    color: #777777;
+    padding: 34px 85px 74px; 
+    margin: 5px 9px 5px 20px;
+}
+
+.aboutpgcontent {
+    background-color: white;
+    padding: 20px 27px 20px 21px;
+}
+
+.top-navigate {
+    float: right; 
+    padding: 2px;
+    margin-top: -30px; 
+}
+
+.top-navigate a {
+    color: #5cccdd;
+    text-align: center;
+    padding: 2px 16px;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.top-navigate a:hover {
+    color: #8cdae6;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.top-navigate a:visited {
+    color: #75d2e1;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.portfolio-gallery {
+    background-color: white;
+    overflow: auto;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.website-thumbnail-1, .website-thumbnail-5 {
+    float: left;
+    margin-right: 20px; 
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.website-thumbnail-2, .website-thumbnail-3, .website-thumbnail-4, .website-thumbnail-6, .website-thumbnail-7, .website-thumbnail-8 {
+    float: left; 
+    margin-right: 25px;
+    padding-top: 20px;  
+}
+
+.website-thumbnail-1:hover, .website-thumbnail-2:hover, .website-thumbnail-3:hover, .website-thumbnail-4:hover, .website-thumbnail-5:hover, .website-thumbnail-6:hover, .website-thumbnail-7:hover, .website-thumbnail-8:hover  {
+    box-shadow: 0 8px 6px -6px black;
+}
+
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 97%;
+        padding: 0px;
+    }
+
+    .top-navigate {
+        margin-right: 20px; 
+    }
+    
+    .top-navigate a {
+        margin-right: 20px;
+    }
+
+    .aboutpic {
+        transition: none;
+        margin-bottom: -20px;
+        margin-right: 2px;
+        margin-top: 30px;
+    }
+
+    .aboutpic:hover {
+        transition: none;
+        margin-bottom: -20px;
+        margin-right: 2px;
+        margin-top: 30px;
+    }
+
+    .portfolio-gallery {
+        margin: 20px; 
+    }
+
+    .website-thumbnail-4, .website-thumbnail-6 {
+        margin-left: 25px;
+    }
+
+    .website-thumbnail-5 {
+        margin-left: -30px; 
+    }
+    
+   
+       
+}
+
+
+@media screen and (max-width: 640px) {
+
+    .topname {
+        width: 100%;
+        margin-bottom: 35px;
+        position: static;
+}
+
+    h2 {
+        float: left;
+        margin-left: 5px;
+        margin-top: -200px; 
+    }
+
+    body {
+        width: 100%;
+        padding: 0px;
+}
+
+    .aboutpic {
+        margin: -1px 120px;
+        transition: none;
+}
+
+    .aboutpic:hover {
+        transition: none;
+      }
+
+    .portfolio-gallery {
+        float: left; 
+        margin: 50px; 
+    }
+
+    .website-thumbnail-1, {
+        margin-right: -30px; 
+}
+
+.website-thumbnail-2, .website-thumbnail-3 {
+    position: relative;
+    left: 30px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
